@@ -11,10 +11,12 @@ Views:
 Other:
 - `⌘-⇧-p`: command palette (`F1`)
   - Supports camel case search: `RSTIAT` will find "`Run Selected Text In Active Terminal`" 
+- `⌘-b`: toggle sidebar
 - `⌘-k z`: zen mode
 - `⌃-⌘-f`: full screen
-- `⌘-⇧-v`: preview (Markdown only?)
-- [Cheat sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- `⌘-⇧-v`: preview (Markdown)
+
+[Cheat sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
 ## Installing the 'code' command
 Type 'shell' in the command palette and choose `Install 'code' command in PATH`. You can now open VSCode from a terminal:
@@ -34,7 +36,7 @@ $ code <path>
 - `⌃-\``: Open terminal
 - `⌘-k`: clear terminal
 
-You can select part of a bash script in an editor, you can choose `` in the command palette
+You can select part of a bash script in an editor, you can choose `Run Selected Text In Active Terminal` in the command palette
 
 ## Preferences
 - `⌘-,`: preferences
@@ -54,3 +56,10 @@ Recommended extensions:
   - Create a new file with extension *.http
   - Add commands in this file, like `GET https://www.google.com/search?q=marsmannetjes`
   - Click the '`Send Request`' link above it
+
+## Search / replace
+- `⌘-f`: search
+  - `⌥-enter`: select all matches (you can edit them simultaneously)
+- `⌘-⇧-f`: search & replace
+- `⌘-⇧-f`: search (across multiple files)
+   - `⌘-⇧-j`: filters (include / exclude files)
