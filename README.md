@@ -1,4 +1,6 @@
 # visual-studio-code
+[Cheat sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+
 Tips &amp; Tricks for Visual Studio Code (VSCode) on MacOS
 
 ## Basic keyboard shortcuts
@@ -15,8 +17,6 @@ Other:
 - `⌘-k z`: zen mode
 - `⌃-⌘-f`: full screen
 - `⌘-⇧-v`: preview (Markdown)
-
-[Cheat sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
 ## Installing the 'code' command
 Type 'shell' in the command palette and choose `Install 'code' command in PATH`. You can now open VSCode from a terminal:
