@@ -17,6 +17,7 @@ Other:
 - `⌘-k z`: zen mode
 - `⌃-⌘-f`: full screen
 - `⌘-⇧-v`: preview (Markdown)
+- `⌘-k v`: preview (Markdown) to the side
 
 ## Installing the 'code' command
 Type 'shell' in the command palette and choose `Install 'code' command in PATH`. You can now open VSCode from a terminal:
