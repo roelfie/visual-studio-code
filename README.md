@@ -32,6 +32,25 @@ $ code <path>
 - `⌘-L`: expand line selection
 - `⌥-up/down`: move selection up/down
 
+## Navigating code
+- `⌃-g`: goto line
+- `⌘-p`: open file
+- `⌘-⇧-o`: symbols / outline / structure
+
+## Selections
+- `⌘-d`: select word under cursor (select next occurrence)
+- `⌘-⇧-L`: select all occurrences
+- `⌘-L`: expand line selection
+- `⌘-⌥-up/down`: add cursor above/below (create block select)
+- `⌃-⌘-⇧-right`: expand selection (left = shrink selection)
+
+## Search / replace
+- `⌘-f`: search
+  - `⌥-enter`: select all matches (you can edit them simultaneously)
+- `⌘-⇧-f`: search & replace
+- `⌘-⇧-f`: search (across multiple files)
+   - `⌘-⇧-j`: filters (include / exclude files)
+
 ## Terminal
 - `⌃-\``: Open terminal
 - `⌘-k`: clear terminal
@@ -57,9 +76,5 @@ Recommended extensions:
   - Add commands in this file, like `GET https://www.google.com/search?q=marsmannetjes`
   - Click the '`Send Request`' link above it
 
-## Search / replace
-- `⌘-f`: search
-  - `⌥-enter`: select all matches (you can edit them simultaneously)
-- `⌘-⇧-f`: search & replace
-- `⌘-⇧-f`: search (across multiple files)
-   - `⌘-⇧-j`: filters (include / exclude files)
+## Miscellaneous
+In the settings you can define JSON schema references and link them to certain file name(s), in order to enable intellisense in the json editor. See the 'JSON and schemas' video in the course [Visual Studio Code for Web Developers](https://www.linkedin.com/learning/visual-studio-code-for-web-developers) by Joe Marini.
