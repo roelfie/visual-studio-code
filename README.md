@@ -3,7 +3,7 @@
 
 Tips &amp; Tricks for Visual Studio Code (VSCode) on MacOS
 
-## Basic keyboard shortcuts
+## Basics
 Views:
 - `⌘-⇧-e`: folder view
 - `⌘-⇧-f`: search view
@@ -25,7 +25,9 @@ Type 'shell' in the command palette and choose `Install 'code' command in PATH`.
 $ code <path>
 ```
 
-## Editing
+## Keyboard shortcuts
+
+#### Editing
 - `⌘-c`: copy (works on entire line if nothing selected)
 - `⌘-v`: paste (works on entire line if nothing selected)
 - `⌘-x`: cut (works on entire line if nothing selected)
@@ -33,32 +35,36 @@ $ code <path>
 - `⌘-L`: expand line selection
 - `⌥-up/down`: move selection up/down
 
-## Navigating code
+#### Navigation
 - `⌃-g`: goto line
 - `⌘-p`: open file
 - `⌘-⇧-o`: symbols / outline / structure
 
-## Selections
+#### Selections
 - `⌘-d`: select word under cursor (select next occurrence)
 - `⌘-⇧-L`: select all occurrences
 - `⌘-L`: expand line selection
 - `⌘-⌥-up/down`: add cursor above/below (create block select)
 - `⌃-⌘-⇧-right`: expand selection (left = shrink selection)
 
-## Search / replace
+#### Search / replace
 - `⌘-f`: search
   - `⌥-enter`: select all matches (you can edit them simultaneously)
 - `⌘-⇧-f`: search & replace
 - `⌘-⇧-f`: search (across multiple files)
    - `⌘-⇧-j`: filters (include / exclude files)
 
-## Terminal
+#### Run / debug
+
+- `F5`: Debug
+
+#### Terminal
 - `⌃-\``: Open terminal
 - `⌘-k`: clear terminal
 
 You can select part of a bash script in an editor, you can choose `Run Selected Text In Active Terminal` in the command palette
 
-## Preferences
+#### Preferences
 - `⌘-,`: preferences
 - `⌘-k-s`: keyboard shortcuts
 
